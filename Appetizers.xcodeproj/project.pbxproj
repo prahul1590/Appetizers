@@ -14,9 +14,11 @@
 		5413B3E52BE2A48600A3E4D9 /* AppetizersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5413B3E42BE2A48600A3E4D9 /* AppetizersTests.swift */; };
 		5413B3EF2BE2A48600A3E4D9 /* AppetizersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5413B3EE2BE2A48600A3E4D9 /* AppetizersUITests.swift */; };
 		5413B3F12BE2A48600A3E4D9 /* AppetizersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5413B3F02BE2A48600A3E4D9 /* AppetizersUITestsLaunchTests.swift */; };
-		5413B3FE2BE2A55500A3E4D9 /* ApptizersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5413B3FD2BE2A55500A3E4D9 /* ApptizersListView.swift */; };
+		5413B3FE2BE2A55500A3E4D9 /* AppetizersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5413B3FD2BE2A55500A3E4D9 /* AppetizersListView.swift */; };
 		5413B4002BE2A56500A3E4D9 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5413B3FF2BE2A56500A3E4D9 /* AccountView.swift */; };
 		5413B4022BE2A56E00A3E4D9 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5413B4012BE2A56E00A3E4D9 /* OrderView.swift */; };
+		5413B4052BE2DB1700A3E4D9 /* AppetizerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5413B4042BE2DB1700A3E4D9 /* AppetizerList.swift */; };
+		5413B4072BE2E4F400A3E4D9 /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5413B4062BE2E4F400A3E4D9 /* AppetizerListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,9 +49,11 @@
 		5413B3EA2BE2A48600A3E4D9 /* AppetizersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppetizersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5413B3EE2BE2A48600A3E4D9 /* AppetizersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizersUITests.swift; sourceTree = "<group>"; };
 		5413B3F02BE2A48600A3E4D9 /* AppetizersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizersUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		5413B3FD2BE2A55500A3E4D9 /* ApptizersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApptizersListView.swift; sourceTree = "<group>"; };
+		5413B3FD2BE2A55500A3E4D9 /* AppetizersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizersListView.swift; sourceTree = "<group>"; };
 		5413B3FF2BE2A56500A3E4D9 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		5413B4012BE2A56E00A3E4D9 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		5413B4042BE2DB1700A3E4D9 /* AppetizerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerList.swift; sourceTree = "<group>"; };
+		5413B4062BE2E4F400A3E4D9 /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,7 @@
 				5413B4032BE2A57500A3E4D9 /* Tabbar */,
 				5413B3D72BE2A48600A3E4D9 /* Assets.xcassets */,
 				5413B3D92BE2A48600A3E4D9 /* Preview Content */,
+				5413B4042BE2DB1700A3E4D9 /* AppetizerList.swift */,
 			);
 			path = Appetizers;
 			sourceTree = "<group>";
@@ -137,7 +142,8 @@
 		5413B4032BE2A57500A3E4D9 /* Tabbar */ = {
 			isa = PBXGroup;
 			children = (
-				5413B3FD2BE2A55500A3E4D9 /* ApptizersListView.swift */,
+				5413B3FD2BE2A55500A3E4D9 /* AppetizersListView.swift */,
+				5413B4062BE2E4F400A3E4D9 /* AppetizerListCell.swift */,
 				5413B3FF2BE2A56500A3E4D9 /* AccountView.swift */,
 				5413B4012BE2A56E00A3E4D9 /* OrderView.swift */,
 			);
@@ -274,10 +280,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5413B4072BE2E4F400A3E4D9 /* AppetizerListCell.swift in Sources */,
+				5413B4052BE2DB1700A3E4D9 /* AppetizerList.swift in Sources */,
 				5413B4002BE2A56500A3E4D9 /* AccountView.swift in Sources */,
 				5413B3D62BE2A48500A3E4D9 /* AppetizerTabView.swift in Sources */,
 				5413B3D42BE2A48500A3E4D9 /* AppetizersApp.swift in Sources */,
-				5413B3FE2BE2A55500A3E4D9 /* ApptizersListView.swift in Sources */,
+				5413B3FE2BE2A55500A3E4D9 /* AppetizersListView.swift in Sources */,
 				5413B4022BE2A56E00A3E4D9 /* OrderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
