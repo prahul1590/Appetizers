@@ -21,6 +21,8 @@
 		5413B4072BE2E4F400A3E4D9 /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5413B4062BE2E4F400A3E4D9 /* AppetizerListCell.swift */; };
 		5413B4092BE4301300A3E4D9 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5413B4082BE4301300A3E4D9 /* NetworkManager.swift */; };
 		5413B40B2BE447F200A3E4D9 /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5413B40A2BE447F200A3E4D9 /* APError.swift */; };
+		5413B40D2BE52AF800A3E4D9 /* AppetizerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5413B40C2BE52AF800A3E4D9 /* AppetizerListViewModel.swift */; };
+		5413B40F2BE54DF900A3E4D9 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5413B40E2BE54DF900A3E4D9 /* Alerts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		5413B4062BE2E4F400A3E4D9 /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
 		5413B4082BE4301300A3E4D9 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		5413B40A2BE447F200A3E4D9 /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
+		5413B40C2BE52AF800A3E4D9 /* AppetizerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListViewModel.swift; sourceTree = "<group>"; };
+		5413B40E2BE54DF900A3E4D9 /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,9 +113,11 @@
 			isa = PBXGroup;
 			children = (
 				5413B40A2BE447F200A3E4D9 /* APError.swift */,
+				5413B40C2BE52AF800A3E4D9 /* AppetizerListViewModel.swift */,
 				5413B4082BE4301300A3E4D9 /* NetworkManager.swift */,
 				5413B3D32BE2A48500A3E4D9 /* AppetizersApp.swift */,
 				5413B3D52BE2A48500A3E4D9 /* AppetizerTabView.swift */,
+				5413B40E2BE54DF900A3E4D9 /* Alerts.swift */,
 				5413B4032BE2A57500A3E4D9 /* Tabbar */,
 				5413B3D72BE2A48600A3E4D9 /* Assets.xcassets */,
 				5413B3D92BE2A48600A3E4D9 /* Preview Content */,
@@ -289,11 +295,13 @@
 				5413B4072BE2E4F400A3E4D9 /* AppetizerListCell.swift in Sources */,
 				5413B40B2BE447F200A3E4D9 /* APError.swift in Sources */,
 				5413B4052BE2DB1700A3E4D9 /* AppetizerList.swift in Sources */,
+				5413B40D2BE52AF800A3E4D9 /* AppetizerListViewModel.swift in Sources */,
 				5413B4002BE2A56500A3E4D9 /* AccountView.swift in Sources */,
 				5413B3D62BE2A48500A3E4D9 /* AppetizerTabView.swift in Sources */,
 				5413B4092BE4301300A3E4D9 /* NetworkManager.swift in Sources */,
 				5413B3D42BE2A48500A3E4D9 /* AppetizersApp.swift in Sources */,
 				5413B3FE2BE2A55500A3E4D9 /* AppetizersListView.swift in Sources */,
+				5413B40F2BE54DF900A3E4D9 /* Alerts.swift in Sources */,
 				5413B4022BE2A56E00A3E4D9 /* OrderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
