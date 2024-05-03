@@ -9,16 +9,19 @@ import SwiftUI
 
 final class AppetizerListViewModel:ObservableObject{
     @Published var appetizers = [Appetizer]()
-
     @Published var alertItem : AlertItem?
+    @Published var isLoading = false
 
     func getAppetizers(){
+        isLoading = !isLoading
         NetworkManager.shared.getAppetizers {[self] result in
             DispatchQueue.main.async {
+                self.isLoading = !self.isLoading
+
                 switch result{
                 case .success(let appetizers):
                     self.appetizers = appetizers
-                    
+                
                 case .failure(let error):
                     switch error{
                     case .invalidURL:
