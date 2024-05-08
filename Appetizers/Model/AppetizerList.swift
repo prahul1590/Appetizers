@@ -22,7 +22,7 @@ struct MockData{
         imageURL: URL(
             string: "https://seanallen-course-backend.herokuapp.com/images/appetizers/asian-flank-steak.jpg"
         )?.absoluteString ?? "-",
-        name: "Test Appetizer",
+        name: "Test Appetizer 1",
         calories: 300,
         id: 1,
         description: "This perfectly thin cut just melts in your mouth.",
@@ -31,6 +31,35 @@ struct MockData{
         price: 8.99
     )
     
+    static let sampleAppetizer1 = Appetizer(
+        imageURL: URL(
+            string: "https://seanallen-course-backend.herokuapp.com/images/appetizers/asian-flank-steak.jpg"
+        )?.absoluteString ?? "-",
+        name: "Test Appetizer 2",
+        calories: 300,
+        id: 2,
+        description: "This perfectly thin cut just melts in your mouth.",
+        protein: 14,
+        carbs: 0,
+        price: 8.99
+    )
     
-    static let appetizers = [sampleAppetizer,sampleAppetizer,sampleAppetizer,sampleAppetizer,sampleAppetizer]
+    
+    
+    static let sampleAppetizer2 = Appetizer(
+        imageURL: URL(
+            string: "https://seanallen-course-backend.herokuapp.com/images/appetizers/asian-flank-steak.jpg"
+        )?.absoluteString ?? "-",
+        name: "Test Appetizer 3",
+        calories: 300,
+        id: 3,
+        description: "This perfectly thin cut just melts in your mouth.",
+        protein: 14,
+        carbs: 0,
+        price: 8.99
+    )
+    
+    
+    
+    static let appetizers = [sampleAppetizer,sampleAppetizer1,sampleAppetizer2]
 }

@@ -22,9 +22,13 @@ struct AppetizerListCell: View {
                     .font(.title2)
                     .fontWeight(.medium)
                 
-                Text("$\(appetizer.price,specifier: "%.2f")")
-                    .foregroundStyle(.secondary)
-                    .fontWeight(.bold)
+                if #available(iOS 16.0, *) {
+                    Text("$\(appetizer.price,specifier: "%.2f")")
+                        .foregroundStyle(.secondary)
+                        .fontWeight(.bold)
+                } else {
+                    // Fallback on earlier versions
+                }
             }
             .padding(.leading)
         }
